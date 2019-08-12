@@ -1,8 +1,13 @@
 # samsungadtrackdomains
 List of every known samsung domain that their TVs use to send/receive ads, user data, firmware updates, etc. 
 
-Use your own DNS service like OpenDNS and set up your TV to use that, or look into setting up a PiHole that blocks all ads on your entire network.
+There is already a good guide on using your own DNS server to block ads here: https://gist.githubusercontent.com/peteryates/b44b70d19ccd52f62d66cdd4bcef1e52/raw/bcfe89e05df3cbc6fd30dc1a32e62bd9c3408dfa/guide.md
 
+This page was made because the previous guide's list of domains hasn't been updated in quite some time. 
+
+You can also look into something like a PiHole that blocks  ALL ads on your entire network without having to set up each device! Check out https://reddit.com/r/pihole for more info
+
+```
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 acr0.samsungcloudsolution.com
 ad.samsungadhub.com
@@ -69,3 +74,4 @@ www.samsungotn.net
 www.samsungrm.net
 xpu.samsungelectronics.com
 ypu.samsungelectronics.com
+```
