@@ -5,6 +5,8 @@ There is already a good guide on using your own DNS server to block ads here: ht
 
 You can also look into something like a PiHole that blocks  ALL ads on your entire network without having to set up each device! Check out https://reddit.com/r/pihole for more info
 
+If your router supports blocking domains (possibly under parental controls) you can block them from there. If you can only block one, your best bet is `ads.samsung.com`
+
 This page was made because the previous guide's list of domains hasn't been updated in quite some time. 
 
 If you want to help put a stop to this abusive practice, hit them where it hurts and spread the news! Don't buy their crap.
