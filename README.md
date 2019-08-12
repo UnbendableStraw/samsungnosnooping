@@ -1,12 +1,13 @@
-# samsungadtrackdomains
-List of every known samsung domain that their TVs use to send/receive ads, user data, firmware updates, etc. 
+# samsungnosnooping
+Below is a list of every known samsung domain that their TVs use to send/receive ads, user data, firmware updates, etc. 
 
 There is already a good guide on using your own DNS server to block ads here: https://gist.githubusercontent.com/peteryates/b44b70d19ccd52f62d66cdd4bcef1e52/raw/bcfe89e05df3cbc6fd30dc1a32e62bd9c3408dfa/guide.md
 
-This page was made because the previous guide's list of domains hasn't been updated in quite some time. 
-
 You can also look into something like a PiHole that blocks  ALL ads on your entire network without having to set up each device! Check out https://reddit.com/r/pihole for more info
 
+This page was made because the previous guide's list of domains hasn't been updated in quite some time. 
+
+If you want to help put a stop to this abusive practice, hit them where it hurts and spread the news! Don't buy their crap.
 ```
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 acr0.samsungcloudsolution.com
