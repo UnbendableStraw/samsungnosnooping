@@ -1,80 +1,123 @@
-# samsungnosnooping
-Below is a list of every known samsung domain that their TVs use to send/receive ads, user data, firmware updates, etc. 
+#samsungnosnoop
+Samsung No Snooping!
 
-There is already a good guide on using your own DNS server to block ads (specifically for samsung tv's here: https://gist.githubusercontent.com/peteryates/b44b70d19ccd52f62d66cdd4bcef1e52/raw/bcfe89e05df3cbc6fd30dc1a32e62bd9c3408dfa/guide.md
+List below is all domains I've captured that samsung smart TVs use to do anything other than watch youtube, netflix, and google play. Block all of them for total privacy and no ads. Note the comments
 
-You can also look into something like a PiHole that blocks  ALL ads on your entire network without having to set up each device! Check out https://reddit.com/r/pihole for more info
+I use a linksys router with openwrt and adblock. You copuld use a pihole, or even a custom dns service that lets you block domains.
 
-If your router supports blocking domains (possibly under parental controls) you can block them from there. If you can only block one, your best bet is `ads.samsung.com`
-
-This page was made because the previous guide's list of domains hasn't been updated in quite some time. 
-
-If you want to help put a stop to this abusive practice, hit them where it hurts and spread the news! Don't buy their crap.
 ```
+#remove if samsung account sign in is needed
+auth.samsungosp.com
+samsungosp.com
+##
+#keep whitelisted otherwise apps stop working ssl timesync
+#time.samsungcloudsolution.com
+##
+#the rest in my experience are safe to block and apps like youtube, netflix, and google play still function
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
+abtauthprd.samsungcloudsolution.com
 acr0.samsungcloudsolution.com
 ad.samsungadhub.com
 ads.samsungads.com
+amauthprd.samsungcloudsolution.com
+api-hub.samsungyosemite.com
 apps.samsungcloudcdn.com
-auth.samsungosp.com
+apu.samsungelectronics.com
 az43064.vo.msecnd.net
+bpu.samsungelectronics.com
 cdn.samsungcloudsolution.com
+cdn.samsungcloudsolution.net
 config.samsungads.com
 configprd.samsungcloudsolution.net
+cpu.samsungelectronics.com
 d1jwpcr0q4pcq0.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net
 d2tnx644ijgq6i.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
+d37ju0xanoz6gh.cloudfront.net
+d179kwmlpc4o47.cloudfront.ne
 d179kwmlpc4o47.cloudfront.net
+dev-multiscreen.samsung.com
+device-metrics-us.amazon.com
 dly2224qfzjce.cloudfront.net
+dpu.samsungelectronics.com
 fkp.samsungcloudsolution.com
 fkp.samsungcloudsolution.net
 gallery.tv.widgets.yahoo.com
 game.internetat.tv
 gld.samsungosp.com
 gpm.samsungqbe.com
+i-stream.pl
+infolink.pavv.co.k
 infolink.pavv.co.kr
+invitation.samsungiotcloud.com
 kpu.samsungelectronics.com
 lcprd1.samsungcloudsolution.net
 lcstg2.samsungcloudsolution.net
 log-1.samsungacr.com
 log-2.samsungacr.com
+log-3.samsungacr.com
 log-config.samsungacr.com
 log-ingestion-eu.samsungacr.com
+log-ingestion.samsungacr.com
 log.internetat.tv
 multiscreen.samsung.com
+musicid.samsungcloudsolution.com
 notice.samsungcloudsolution.com
 noticecdn.samsungcloudsolution.com
 noticefile.samsungcloudsolution.com
+ns11.whois.co.kr
+ocfconnect-shard-na03-useast2.samsungiotcloud.com
 oempprd.samsungcloudsolution.com
+oempprd.samsungcloudsolution.net
 openapi.samsung.com
 osb-apps.samsungqbe.com
 osb-eusvc.samsungqbe.com
+osb-krsvc.samsungqbe.com
 osb.samsungqbe.com
 otn.samsungcloudcdn.com
 otnprd8.samsungcloudsolution.net
 otnprd9.samsungcloudsolution.net
 otnprd10.samsungcloudsolution.net
 otnprd11.samsungcloudsolution.net
+pavv.co.kr
+pipeaota.com
+prderrordumphsm.samsungcloudsolution.com
 premium-videos.telly.com
 prov.samsungcloudsolution.com
+rd.samsungadhub.com
+rwww.samsungotn.net
 samsung.com
 samsungacr.com
+samsungadhub.com
 samsungads.com
 samsungcloudsolution.com
 samsungcloudsolution.net
+samsungelectronics.com
+samsungiotcloud.com
 samsungotn.net
+samsungqbe.com
+samsungrm.net
 sas.samsungcloudsolution.com
+sca.samsung.com
 sso.internetat.tv
+stsprdservicesa.cloudapp.net
 syncplusconfig.s3.amazonaws.com
 targeted-config-test.samsungacr.com
+test.samsungrm.net
+upu.samsungelectronics.com
+us-api.samsungyosemite.com
 usecho.internetat.tv
 vd-emp-prd.s3.amazonaws.com
+vd.contents.prod.eu.s3.amazonaws.com
 vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
+vuduweb.s.llnwi.net
 www.samsung.com
 www.samsungotn.net
 www.samsungrm.net
 xpu.samsungelectronics.com
+ypu.samsungelectronics.com
+zpu.samsungelectronics.com
 ypu.samsungelectronics.com
 ```
