@@ -10,7 +10,7 @@ I use a linksys router with openwrt and adblock. You copuld use a pihole, or eve
 auth.samsungosp.com
 samsungosp.com
 ##
-#keep whitelisted otherwise apps stop working ssl timesync
+#keep whitelisted otherwise apps like youtube eventually stop working, maybe cause the tv time drifts then ssl fails to work?
 #time.samsungcloudsolution.com
 ##
 #the rest in my experience are safe to block and apps like youtube, netflix, and google play still function
