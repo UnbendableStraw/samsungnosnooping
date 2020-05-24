@@ -1,6 +1,3 @@
-#remove if samsung account sign in is needed
-auth.samsungosp.com
-samsungosp.com
 ##
 #keep whitelisted otherwise apps like YouTube eventually stop working, maybe cause the tv time drifts then ssl fails to work?
 #time.samsungcloudsolution.com
