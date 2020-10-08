@@ -56,7 +56,6 @@ notice.samsungcloudsolution.com
 noticecdn.samsungcloudsolution.com
 noticefile.samsungcloudsolution.com
 ns11.whois.co.kr
-ocfconnect-shard-na03-useast2.samsungiotcloud.com
 oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
 openapi.samsung.com
