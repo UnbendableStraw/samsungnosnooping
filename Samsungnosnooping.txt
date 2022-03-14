@@ -100,7 +100,6 @@ vd.contents.prod.eu.s3.amazonaws.com
 vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
 vuduweb.s.llnwi.net
-www.samsung.com
 www.samsungotn.net
 www.samsungrm.net
 xpu.samsungelectronics.com
